@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="WpfDolgozat.Tasks.Page2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfDolgozat.Tasks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="CornflowerBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="1" Text="Quantity:" VerticalAlignment="Center" HorizontalAlignment="right" Padding="15"/>
+        <CheckBox Grid.Row="2" Grid.ColumnSpan="2" Content="Add to wishlist" VerticalAlignment="Center" HorizontalAlignment="Left" Width="100"/>
+        <TextBlock Grid.Column="1" FontSize="24" Text="Information 8" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" Foreground="LightSkyBlue"/>
+        <StackPanel Grid.Column="1" Grid.Row="1" Background="White"/>
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="125" Height="35" Margin="5" Content="Add to Cart" Background="SteelBlue"/>
+            <Button Width="125" Height="35" Margin="5" Content="Buy Now" Background="red"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="2" Background="White" Margin="25 0 25 0"/>
+    </Grid>
+</UserControl>

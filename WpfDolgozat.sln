@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDolgozat", "WpfDolgozat\WpfDolgozat.csproj", "{E5C9B910-58FB-4050-A6EC-A3F66ABB48E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvToDatabase", "CsvToDatabase\CsvToDatabase.csproj", "{11C1BE1C-AA6B-414A-B200-83C67E06E413}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5C9B910-58FB-4050-A6EC-A3F66ABB48E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C9B910-58FB-4050-A6EC-A3F66ABB48E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C9B910-58FB-4050-A6EC-A3F66ABB48E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C9B910-58FB-4050-A6EC-A3F66ABB48E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C1BE1C-AA6B-414A-B200-83C67E06E413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C1BE1C-AA6B-414A-B200-83C67E06E413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C1BE1C-AA6B-414A-B200-83C67E06E413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C1BE1C-AA6B-414A-B200-83C67E06E413}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B5105D4-50D8-46AB-83CB-98D849B31D18}
+	EndGlobalSection
+EndGlobal
